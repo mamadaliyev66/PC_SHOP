@@ -55,7 +55,8 @@ export default function OrderOthers() {
             date: new Date(),
             order_ctg:'aksessuarlar',
             order_id:id,
-            id:docId
+            id:docId,
+               finished:'false'
 
           });
           setFullName('')
