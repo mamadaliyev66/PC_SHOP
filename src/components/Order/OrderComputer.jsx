@@ -55,7 +55,8 @@ export default function OrderComputer() {
           date: new Date(),
           order_ctg:'noutboklar',
           order_id:id,
-          id:docId
+          id:docId,
+          finished:'false'
 
         });
         setFullName('')
